@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/23 13:54:46.000.109,=rtl.dcp</Transaction>
+    <Transaction>2020/04/23 13:55:54.000.113,C:\Users\guilh\Desktop\Projetos\Exemplo_POO\pkPessoa.dproj=E:\Package1.dproj</Transaction>
+    <Transaction>2020/04/23 14:25:06.000.545,=C:\Users\guilh\Desktop\Projetos\Exemplo_POO\uPessoa.pas</Transaction>
+    <Transaction>2020/04/23 16:26:45.833,=rtl.dcp</Transaction>
+    <Transaction>2020/04/23 16:26:45.946,=C:\Users\vinic\Desktop\Delphi\ExemploPOO-professor\uPessoa.pas</Transaction>
+    <Transaction>2020/04/23 16:26:49.434,=C:\Users\vinic\Desktop\Delphi\ExemploPOO-professor\uCarro.pas</Transaction>
+    <Transaction>2020/04/23 16:26:49.439,=designide.dcp</Transaction>
+    <Transaction>2020/04/23 16:26:49.446,=vcl.dcp</Transaction>
+    <Transaction>2020/04/23 16:26:49.451,=vclactnband.dcp</Transaction>
+    <Transaction>2020/04/23 16:26:49.455,=vclx.dcp</Transaction>
+    <Transaction>2020/04/23 16:26:49.462,=xmlrtl.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

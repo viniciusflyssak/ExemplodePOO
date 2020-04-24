@@ -1,0 +1,31 @@
+unit uPessoa;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TPessoa = class(TComponent)
+  private
+    { Private declarations }
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    property Nome : String.  (*
+
+                             *)
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('ClubeDelphi', [TPessoa]);
+end;
+
+end.

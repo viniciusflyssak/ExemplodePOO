@@ -1,0 +1,47 @@
+unit uAviao;
+
+interface
+
+uses uMeioTransporte;
+
+type
+  TAviao = class(TMeioTransporte)
+  private
+    HorasVoo: integer;
+    function GetHorasVoo: integer;
+    procedure SetHorasVoo(const Value: integer);
+
+  protected
+    procedure Ligar(); override;
+
+  public
+    procedure Mover(); override;
+
+  published
+  property HorasVoo
+  end;
+
+implementation
+
+uses Dialogs;
+
+{ TAviao }
+
+constructor TAviao.Create;
+begin
+  inherited;
+  HorasVoo := 0;
+end;
+
+procedure TAviao.Ligar;
+begin
+  ShowMessage('Ligando avião ...' + Descricao);
+end;
+
+procedure TAviao.Mover();
+begin
+  inherited;
+  ShowMessage(Descricao + ' está Voando.');
+end;
+
+end.
